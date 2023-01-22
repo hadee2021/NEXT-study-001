@@ -4,6 +4,7 @@ import style from './layout.module.css'
 import Sidebar from './Sidebar'
 import FlowbiteContext from '../context/FlowbiteContext'
 
+
 interface Props {
   children: JSX.Element
 }
