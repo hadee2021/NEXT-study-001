@@ -1,0 +1,19 @@
+.header {
+  height: 70px;
+  border-bottom: 1px solid;
+}
+
+.container {
+  display: flex;
+  height: 92vh;
+}
+
+.sidebar {
+  width: 256px;
+  border-right: 1px solid;
+}
+
+.container > div:last-child {
+  flex: 1;
+  overflow: auto;
+}
